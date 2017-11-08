@@ -31,4 +31,4 @@ var PolicieSchema = new Schema({
   }
 }, { collection })
 
-module.exports = mongoose.model('Policie', PolicieSchema)
+module.exports = mongoose.model('Policy', PolicieSchema)
