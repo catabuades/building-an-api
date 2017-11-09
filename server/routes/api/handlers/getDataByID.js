@@ -1,14 +1,9 @@
-const express = require('express')
-const router = express.Router()
+const Client = require('../../../models/Client')
 
-const getDataByID = require('./handlers/getByID')
-const getDataByName = require('./handlers/getAllBikes')
-const getPolicyByName = require('./handlers/getPolicyByName')
-const getNameByPolicy = require('./handlers/getNameByPolicy')
+function getDataById (req, res) {
+  const { id } = req.params
+  Client.find({ id })
+    .then(client => res.json(client))
+}
 
-router.get('/clients', getDataByID)
-router.get('/clients', getDataByName)
-router.get('/admin', getPolicyByName)
-router.get('/admin', getNameByPolicy)
-
-module.exports = router
+module.exports = getDataById

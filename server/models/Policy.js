@@ -1,10 +1,10 @@
-
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const ObjectId = Schema.ObjectId
 
 const collection = 'policies'
 
-var PolicieSchema = new Schema({
+var PolicySchema = new Schema({
   id: {
     type: String,
     required: true
@@ -28,7 +28,11 @@ var PolicieSchema = new Schema({
   clientId: {
     type: String,
     required: true
-  }
+  },
+  clients: [{
+    type: ObjectId,
+    ref: 'Client'
+  }]
 }, { collection })
 
-module.exports = mongoose.model('Policy', PolicieSchema)
+module.exports = mongoose.model('Policy', PolicySchema)

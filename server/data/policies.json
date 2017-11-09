@@ -1,5 +1,4 @@
-{
-    "policies": [
+[
     {
         "id": "64cceef9-3a01-49ae-a23b-3761b604800b",
         "amountInsured": 1825.89,
@@ -1543,5 +1542,5 @@
         "inceptionDate": "2014-10-18T07:12:05Z",
         "installmentPayment": true,
         "clientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb"
-    }]
-}
+    }
+]

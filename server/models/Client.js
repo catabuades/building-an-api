@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const ObjectId = Schema.ObjectId
 
 const collection = 'clients'
 
@@ -19,7 +20,11 @@ var ClientSchema = new Schema({
   role: {
     type: String,
     required: true
-  }
+  },
+  policies: [{
+    type: ObjectId,
+    ref: 'Policy'
+  }]
 }, { collection })
 
 module.exports = mongoose.model('Client', ClientSchema)
