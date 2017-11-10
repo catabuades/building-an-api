@@ -11,4 +11,10 @@ router.get('/getClientByName/:name', getDataByName)
 router.get('/getNameByPolicy/:id', getNameByPolicy)
 router.get('/getPolicyByName/:name', getPolicyByName)
 
+// Rutas de autenticación
+// router.post('/auth/admin', auth.admin)
+
+// Ruta solo accesible si estás autenticado
+// router.get('/admin',middleware.ensureAuthenticated, function(req, res) {...} );
+
 module.exports = router
