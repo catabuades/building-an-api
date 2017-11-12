@@ -1,3 +1,5 @@
+/* Requiero el modelo del qual quiero extraer la información, y mediante el método find se hace la búsqueda por nombre de usuarios */
+
 const Client = require('../../../models/Client')
 
 function getDataByName (req, res) {

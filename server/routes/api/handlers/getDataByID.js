@@ -1,3 +1,5 @@
+/* Requiero el modelo del qual quiero extraer la información, y con el método find genero la búsqueda por id de usuario. */
+
 const Client = require('../../../models/Client')
 
 function getDataById (req, res) {

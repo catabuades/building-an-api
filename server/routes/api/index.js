@@ -1,3 +1,6 @@
+/* Se requiere el servidor y la routa de los handlers con sus respectivos métodos get ya que se requiere
+una información de la base de datos */
+
 const express = require('express')
 const router = express.Router()
 
@@ -10,11 +13,5 @@ router.get('/getClientById/:id', getDataByID)
 router.get('/getClientByName/:name', getDataByName)
 router.get('/getNameByPolicy/:id', getNameByPolicy)
 router.get('/getPolicyByName/:name', getPolicyByName)
-
-// Rutas de autenticación
-// router.post('/auth/admin', auth.admin)
-
-// Ruta solo accesible si estás autenticado
-// router.get('/admin',middleware.ensureAuthenticated, function(req, res) {...} );
 
 module.exports = router
