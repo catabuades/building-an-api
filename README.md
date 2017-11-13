@@ -1,9 +1,13 @@
-### ROUTES EXAPMPLES
+### ROUTES EXAMPLES
 
+```
 .../getClientById/a3b8d425-2b60-4ad7-becc-bedf2ef860bd
 .../getClientByName/Britney
 .../getNameByPolicy/64cceef9-3a01-49ae-a23b-3761b604800b
 .../getPolicyByName/Britney
+
+```
+
 ---
 
 ## Installation
