@@ -1,13 +1,9 @@
-[![AngularJS](https://github.com/FransLopez/logo-images/blob/master/logos/angularjs.png)](https://angularjs.org/)
-[![ES6](https://github.com/MarioTerron/logo-images/blob/master/logos/es6.png)](http://www.ecma-international.org/ecma-262/6.0/) 
-[![npm](https://github.com/MarioTerron/logo-images/blob/master/logos/npm.png)](https://www.npmjs.com/)
-[![HTML5,CSS3 and JS](https://github.com/FransLopez/logo-images/blob/master/logos/html5-css3-js.png)](http://www.w3.org/)
-[![Bootstrap](https://github.com/FransLopez/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/)  
-[![SASS](https://github.com/FransLopez/logo-images/blob/master/logos/sass.png)](http://sass-lang.com/)
-[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+### ROUTES EXAPMPLES
 
-# [Brastlewark](http://brastlewark.surge.sh/#!/)
-Find who you want! Just look for a name, color, gender or profession. The people of Brastlewark town are here!
+.../getClientById/a3b8d425-2b60-4ad7-becc-bedf2ef860bd
+.../getClientByName/Britney
+.../getNameByPolicy/64cceef9-3a01-49ae-a23b-3761b604800b
+.../getPolicyByName/Britney
 ---
 
 ## Installation
